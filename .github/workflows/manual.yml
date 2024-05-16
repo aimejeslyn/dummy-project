@@ -5,10 +5,10 @@ name: CI/CD for Nginx Load Balancer
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
